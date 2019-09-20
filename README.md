@@ -28,28 +28,37 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1. Describe the biggest difference between `.forEach` & `.map`.<br>
+A: both forEach and map execute a function on each item of an array, but map creates a new array with the results.
 
-2. What is the difference between a function and a method?
+2. What is the difference between a function and a method?<br>
+A: In JS it's a bit trickier than other languages, but basically they're almost completely the same, but a method is a function, that is also a property of an object. Basically the difference you can just think of it as a method is a function with a defined this keyword.
 
-3. What is closure?
+1. What is closure?<br>
+A: A closure is a function and the lexical scope in which it was declared. A simpler way to think about it would be closure is all about scope basically, closure allows access to outer function's scope from the inner function. A closure is created whenever a function is created, and has references to it's surrounding state.
 
-4. Describe the four rules of the 'this' keyword.
+4. Describe the four rules of the 'this' keyword.<br>
+A: 
+(1) Window binding: Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.<br>
+(2) Implicit binding: Whenever a function is called by a preceding dot, the object before that dot is this.<br>
+(3) New binding: Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.<br>
+(4) explicit binding: Whenever JavaScript’s call or apply method is used, this is explicitly defined.
 
-5. Why do we need super() in an extended class?
+5. Why do we need super() in an extended class?<br>
+A: To be able to call any of the methods of it's parent class.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [√] Create a forked copy of this project.
+- [√] Add TL as collaborator on Github.
+- [√] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [√] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [√] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [√] You are now ready to build this project with your preferred IDE
+- [√] Implement the project on your Branch, committing changes regularly.
+- [√] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
